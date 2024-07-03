@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: message-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+
+message-service:
+  default-value: "Hello QA"
