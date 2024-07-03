@@ -10,4 +10,4 @@ management:
           - '*'
 
 message-service:
-  default-value: "Hello DEFAULT"
+  default-value: "Hello DEV"
